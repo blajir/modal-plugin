@@ -7,14 +7,14 @@ data属性タグの中に、モーダルで表示したい要素を記述しま�
 [-modal-title][-modal-text][-modal-iamge]が表示可能です。
 ##使い方
 ###HTML
-```<a data-modal-title="AddImage" data-modal-text="モーダル2" class="modal" data-modal-image="http://placehold.jp/640x240.png">モーダル2</a>```
+    <a data-modal-title="AddImage" data-modal-text="モーダル2" class="modal" data-modal-image="http://placehold.jp/640x240.png">モーダル2</a>
   
 ###script
-```$('.modal').on('click', function () {
+    $('.modal').on('click', function () {
       $(this).modal();
       easing: 'linear',
       animation: 'slideDown'
-    });```
+    });
 
 対象のDOM要素に対して、実行します。
 ## 必要とするもの
