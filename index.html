@@ -12,10 +12,30 @@
   crossorigin="anonymous"></script>
 </head>
 <body>
-  <a data-modal-title="Nomal" data-modal-text="モーダル1" class="modal">モーダル1</a>
-  <a data-modal-title="AddImage" data-modal-text="モーダル2" class="modal" data-modal-image="http://placehold.jp/640x240.png">モーダル2</a>
-  <a data-modal-title="slideDown" data-modal-text="モーダル3" class="modal-anime-slideDown">モーダル3</a>
-  <a data-modal-title="SlideUp" data-modal-text="モーダル4" class="modal-anime-slideUp">モーダル4</a>
+  <h1>モーダルプラグイン</h1>
+  <div class="item">
+    <h2>Nomal-Modal</h2>
+    <p>シンプルなモーダル</p>
+    <button data-modal-title="Nomal" data-modal-text="ここにテキストが入ります。ここにテキストが入ります。" class="modal">button</button>
+  </div>
+  <hr>
+  <div class="item">
+    <h2>Image-Modal</h2>
+    <p>Imageを表示するモーダル</p>
+    <button data-modal-title="AddImage" data-modal-text="ここにテキストが入ります。" class="modal" data-modal-image="http://placehold.jp/640x240.png">button</button>
+  </div>
+  <hr>
+  <div class="item">
+    <h2>slideDown-Modal</h2>
+    <p>slideDownアニメーションで表示されるモーダル</p>
+    <button data-modal-title="slideDown" data-modal-text="ここにテキストが入ります。" class="modal-anime-slideDown">button</button>
+  </div>
+  <hr>
+  <div class="item">
+    <h2>slideUp-Modal</h2>
+    <p>slideUpアニメーションで表示されるモーダル</p>
+    <button data-modal-title="SlideUp" data-modal-text="ここにテキストが入ります。" class="modal-anime-slideUp">button</button>
+  <div>
   <script src="js/modalPlugin.js"></script>
   <script>
     $('.modal').on('click', function () {

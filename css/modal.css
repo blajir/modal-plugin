@@ -1,3 +1,31 @@
+button{
+  font-size: 16px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  border: 1px solid #999;
+  border-radius: 4px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #999;
+  color: #fff;
+}
+
+h2{
+  margin-bottom: 10px;
+}
+
+.item{
+  margin-bottom: 30px;
+}
+
+.item p{
+  margin: 0 0 10px 0;
+}
+
 .modal-Layer{
   display: none;
   position: fixed;
