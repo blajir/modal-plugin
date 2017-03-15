@@ -1,17 +1,15 @@
 # modal-plugin
-
 モーダル用のプラグイン　　
-
-##　概要
+　概要
 モーダル用のプラグインです。
 data属性タグの中に、モーダルで表示したい要素を記述します。
 [-modal-title][-modal-text][-modal-iamge]が表示可能です。　　
 
-##　使い方　　
-###　HTML　　
+## 使い方
+### HTML
     <a data-modal-title="AddImage" data-modal-text="モーダル2" class="modal" data-modal-image="http://placehold.jp/640x240.png">モーダル2</a>
   
-###　script
+### script
     $('.modal').on('click', function () {
       $(this).modal();
       easing: 'linear',
