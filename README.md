@@ -1,6 +1,6 @@
 # modal-plugin
 モーダル用のプラグイン　　
-　概要
+## 概要
 モーダル用のプラグインです。
 data属性タグの中に、モーダルで表示したい要素を記述します。
 [-modal-title][-modal-text][-modal-iamge]が表示可能です。　　
